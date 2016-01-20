@@ -22,3 +22,7 @@
   display: flex;
   justify-content: space-around;
 }
+#secMenu{
+  @extend #call;
+  background-color: #4f4881
+}

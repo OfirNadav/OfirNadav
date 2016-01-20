@@ -1769,24 +1769,24 @@ input, textarea {
 #body .profile {
   margin-top: -5em; }
 
-#call {
+#call, #secMenu {
   background-color: #18aacf;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1.5em;
   float: left; }
 
-#call h1 {
+#call h1, #secMenu h1 {
   color: #fff;
   display: inline-block; }
 
-#call span {
+#call span, #secMenu span {
   float: left;
   padding-top: 0.16em;
   margin-right: 0.7em; }
 
 @media only screen and (max-width: 800px) {
-  #call span {
+  #call span, #secMenu span {
     float: none;
     margin-right: 0em;
     margin-bottom: 0.3em;
@@ -2797,7 +2797,6 @@ div#slider figure, div#slider2 figure, div#slider3 figure, div#slider4 figure {
     transform: translateY(-20%) translateX(-10%); } }
 /* added to the original element calling slippry */
 .sy-box.sy-loading {
-  /*background: url("../img/sy-loader.html") 50% 50% no-repeat;*/
   -moz-background-size: 32px;
   -o-background-size: 32px;
   -webkit-background-size: 32px;
@@ -2924,5 +2923,8 @@ div#slider figure, div#slider2 figure, div#slider3 figure, div#slider4 figure {
 .skills-icons {
   display: flex;
   justify-content: space-around; }
+
+#secMenu {
+  background-color: #4f4881; }
 
 /*# sourceMappingURL=index.css.map */
