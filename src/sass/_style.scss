@@ -1,51 +1,51 @@
-/* fonts panel */
+/* ../assets/fonts panel */
 @font-face {
     font-family:'BebasNeueRegular';
-    src: url('fonts/BebasNeue-webfont.eot');
-    src: url('fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BebasNeue-webfont.woff') format('woff'),
-         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
-         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    src: url('../assets/../assets/fonts/BebasNeue-webfont.eot');
+    src: url('../assets/fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../assets/fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../assets/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family:'Vijaya';
-    src: url('fonts/Vijaya.eot');
-    src: url('fonts/Vijayad41d.html?#iefix') format('embedded-opentype'),
-         url('fonts/Vijaya.woff') format('woff'),
-         url('fonts/Vijaya.ttf') format('truetype'),
-         url('fonts/Vijaya.svg#Vijaya') format('svg');
+    src: url('../assets/fonts/Vijaya.eot');
+    src: url('../assets/fonts/Vijayad41d.html?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Vijaya.woff') format('woff'),
+         url('../assets/fonts/Vijaya.ttf') format('truetype'),
+         url('../assets/fonts/Vijaya.svg#Vijaya') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family:'HelveticaLTStd-Roman';
-    src: url('fonts/HelveticaLTStd-Roman.eot');
-    src: url('fonts/HelveticaLTStd-Romand41d.eot?#iefix') format('embedded-opentype'),
-         url('fonts/HelveticaLTStd-Roman.woff') format('woff'),
-         url('fonts/HelveticaLTStd-Roman.ttf') format('truetype'),
-         url('fonts/HelveticaLTStd-Roman.svg#HelveticaLTStd-Roman') format('svg');
+    src: url('../assets/fonts/HelveticaLTStd-Roman.eot');
+    src: url('../assets/fonts/HelveticaLTStd-Romand41d.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/HelveticaLTStd-Roman.woff') format('woff'),
+         url('../assets/fonts/HelveticaLTStd-Roman.ttf') format('truetype'),
+         url('../assets/fonts/HelveticaLTStd-Roman.svg#HelveticaLTStd-Roman') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family:'socicon';
-    src: url('fonts/socicon.eot');
-    src: url('fonts/socicond41d.eot?#iefix') format('embedded-opentype'),
-         url('fonts/socicon.woff') format('woff'),
-         url('fonts/socicon.ttf') format('truetype'),
-         url('fonts/socicon.svg#sociconregular') format('svg');
+    src: url('../assets/fonts/socicon.eot');
+    src: url('../assets/fonts/socicond41d.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/socicon.woff') format('woff'),
+         url('../assets/fonts/socicon.ttf') format('truetype'),
+         url('../assets/fonts/socicon.svg#sociconregular') format('svg');
     font-weight: normal;
     font-style: normal;
     text-transform: initial;
 }
 
 /* global panel */
-body { background-color: #fff; font-family: "HelveticaLTStd-Roman", Arial, sans-serif; font-size: 18px; color: #4c4c4c; -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced fonts look bold on Mac in Chrome/Webkit based browsers. */ -moz-osx-font-smoothing: grayscale; /* Fixes font bold issue in Firefox version 25+ on Mac */ }
+body { background-color: #fff; font-family: "HelveticaLTStd-Roman", Arial, sans-serif; font-size: 18px; color: #4c4c4c; -webkit-font-smoothing: antialiased; /* This needs to be set or some font faced ../assets/fonts look bold on Mac in Chrome/Webkit based browsers. */ -moz-osx-font-smoothing: grayscale; /* Fixes font bold issue in Firefox version 25+ on Mac */ }
 h1 { font-family: "BebasNeueRegular", Arial, sans-serif; font-size: 42px;}
 a:hover, a:active, a:focus { outline: 0; color: #fff; text-decoration: none; }
 .m-button { margin-top: 5em; } .m-button-top { margin-top: 1.58em; } .p-bottom { padding-bottom: 3em; } .p-bottom-5 { padding-bottom: 6em !important; } .m-img-top { margin-top: 1.4em; }
@@ -84,7 +84,7 @@ a .glyphicon { color: #4c4c4c;font-size: 1.1em; } a:hover .glyphicon { color: #f
 @media only screen and (max-width: 1280px) {
 	#header .caption h1, #header .caption-sub h1 { font-size: 68px !important;} #header .caption span, #header .caption-sub span { font-size: 38px!important; } 
     #mice { padding-top: 3em !important;}
-	#header, #technical { background: url(../img/slide1.jpg) top center no-repeat!important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; min-height: auto!important;  }
+	#header, #technical { background: url(../assets/img/slide1.jpg) top center no-repeat!important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; min-height: auto!important;  }
 	.wrap { width: inherit !important; } .card-m { padding: 2em!important;}
 	#caption h1 { font-size: 2em; } #caption span { font-size: 14px; }
 	#back-top { display: none !important; }
@@ -109,7 +109,7 @@ a .glyphicon { color: #4c4c4c;font-size: 1.1em; } a:hover .glyphicon { color: #f
 	 #caption h1 { font-size: 3em; margin-bottom: 0.5em; margin-top: 0em; } #caption span { font-size: 16px; }
 	 .ghost-button  { margin-bottom: 1em; } .m-button { margin-top: 2em!important; } 
 	  #mice { padding-top: 2em!important;}
-	  #header { background: url(../img/slide1.jpg) top center no-repeat!important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover!important; min-height: auto!important;  }  
+	  #header { background: url(../assets/img/slide1.jpg) top center no-repeat!important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover!important; min-height: auto!important;  }  
 	  
 }
 @media only screen and (max-width: 320px) {
@@ -169,12 +169,12 @@ input, textarea { -moz-border-radius: 0px; border-radius: 0px; -webkit-appearanc
 #disclaimer { font-size: 0.7em; text-align: center;  padding-bottom: 4em; background-color: #fff;}
 
 /*sub panel */
-.portfolio-panel { background: url(../img/slide2.jpg) center left no-repeat!important; -webkit-background-size: cover!important; -moz-background-size: cover!important; -o-background-size: cover!important; background-size: cover!important;}
-.about-panel { background: url(../img/slide3.jpg) top left no-repeat!important; -webkit-background-size: cover!important; -moz-background-size: cover!important; -o-background-size: cover!important; background-size: cover!important; }
+.portfolio-panel { background: url(../assets/img/slide2.jpg) center left no-repeat!important; -webkit-background-size: cover!important; -moz-background-size: cover!important; -o-background-size: cover!important; background-size: cover!important;}
+.about-panel { background: url(../assets/img/slide3.jpg) top left no-repeat!important; -webkit-background-size: cover!important; -moz-background-size: cover!important; -o-background-size: cover!important; background-size: cover!important; }
 
-	.index { background: url(../img/slide1.jpg) no-repeat!important;}
-	.works { background: url(../img/slide2.jpg) bottom left no-repeat!important; background-position: 30% 111.4% !important; }
-	.about { background: url(../img/slide3.jpg) top left no-repeat!important; }
+	.index { background: url(../assets/img/slide1.jpg) no-repeat!important;}
+	.works { background: url(../assets/img/slide2.jpg) bottom left no-repeat!important; background-position: 30% 111.4% !important; }
+	.about { background: url(../assets/img/slide3.jpg) top left no-repeat!important; }
 	
 	.bgcover {  -webkit-background-size: cover !important; -moz-background-size: cover !important; -o-background-size: cover !important; background-size: cover !important; }
 
@@ -830,12 +830,12 @@ width: 22px;
 	height: 25px;
 	display: block;
 	margin-bottom: 0;
-	background: url(../img/top-arrow.png) no-repeat center center;
+	background: url(../assets/img/top-arrow.png) no-repeat center center;
 
 
 }
 #back-top a:hover span {
-	background-color: none;
+	//background-color: none;
 
 }
 
@@ -875,64 +875,6 @@ width: 22px;
 	height: 135px;
 	background-repeat: no-repeat;
 	background-size: 90px 135px;
-}
-
-/* NOMINEE */
-
-#awwwards.nominee.black.left a{
-	background-image: url(../img/awwwards_nominee_black_left.html);
-}
-#awwwards.nominee.black.right a{
-	background-image: url(../img/awwwards_nominee_black_right.html);
-}
-#awwwards.nominee.silver.left a{
-	background-image: url(../img/awwwards_nominee_silver_left.html);
-}
-#awwwards.nominee.silver.right a{
-	background-image: url(../img/awwwards_nominee_silver_right.html);
-}
-#awwwards.nominee.white.left a{
-	background-image: url(../img/awwwards_nominee_white_left.png);
-}
-#awwwards.nominee.white.right a{
-	background-image: url(../img/awwwards_nominee_white_right.png);
-}
-#awwwards.nominee.green.left a{
-	background-image: url(../img/awwwards_nominee_green_left.html);
-}
-#awwwards.nominee.green.right a{
-	background-image: url(../img/awwwards_nominee_green_right.html);
-}
-
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2),	only screen and (min-device-pixel-ratio: 1.5) {
-
-	/* NOMINEE */
-
-	#awwwards.nominee.black.left a{
-		background-image: url(../img/awwwards_nominee_black_left%402x.html);
-	}
-	#awwwards.nominee.black.right a{
-		background-image: url(../img/awwwards_nominee_black_right%402x.html);
-	}
-	#awwwards.nominee.silver.left a{
-		background-image: url(../img/awwwards_nominee_silver_left%402x.html);
-	}
-	#awwwards.nominee.silver.right a{
-		background-image: url(../img/awwwards_nominee_silver_right%402x.html);
-	}
-	#awwwards.nominee.white.left a{
-		background-image: url(../img/awwwards_nominee_white_left%402x.png);
-	}
-	#awwwards.nominee.white.right a{
-		background-image: url(../img/awwwards_nominee_white_right%402x.png);
-	}
-	#awwwards.nominee.green.left a{
-		background-image: url(../img/awwwards_nominee_green_left%402x.html);
-	}
-	#awwwards.nominee.green.right a{
-		background-image: url(../img/awwwards_nominee_green_right%402x.html);
-	}
-
 }
 
 [data-sr] {
